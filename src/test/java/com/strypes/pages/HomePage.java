@@ -36,7 +36,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//div[contains(@aria-label, 'Please navigate')]//em//a")
     public WebElement chatBotContactFormLink;
 
-    @FindBy(linkText = "Contact page")
+    @FindBy(linkText = "Contact")
     public WebElement ContactButton;
 
 
