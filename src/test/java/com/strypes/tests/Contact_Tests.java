@@ -39,7 +39,10 @@ public class Contact_Tests extends TestBase {
         contactPage.subscriptionCheckBox.click();
         contactPage.sendButton.click();
 
-        Assert.assertEquals(contactPage.approvalMessage.getText(),"Thank you for submitting the form.");
+        Assert.assertEquals(
+                contactPage.approvalMessage.getText(),
+                "Thank you for submitting the form."
+        );
 
     }
 
